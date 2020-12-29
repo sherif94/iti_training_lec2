@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="../css/main.css">
+  <!-- head title  -->
+  <title> form</title>
+
+</head>
+
+
+<body>
+  <div class="form">
+    <h1>Register - Create Account</h1>
+    <div class="dotted-div">field marked with <sup class="astric-red">*</sup> are compulsory fields</div>
+
+    <!-- form tag -->
+    <form action="page2.html">
+      <!-- name section -->
+      <div class="sec-info">
+        <label for="name"><sup class="astric-red">*</sup> Your name</label> <input type="text" id="name">
+      </div>
+      <!-- email section -->
+      <div class="sec-info">
+        <label for="email"><sup class="astric-red">*</sup> Email-id</label> <input type="text" id="email">
+      </div>
+      <!-- Alternatoive Section section -->
+      <div class="sec-info">
+        <label for="Aemail"> <sup class="astric-red">*</sup>Alternative Email</label> <input type="text" id="email">
+      </div>
+
+      <!-- your phone section-->
+      <div class="sec-info your-phone">
+        <label><sup class="astric-red">*</sup>Your Phone</label>
+        <span style="display:inline-block">
+          <div>
+            <span for="countryCode" class="country-code">Country code</span>
+            <span for="countryCode" class="country-code">Country code</span>
+            <span for="countryCode" class="country-code">Country code</span>
+          </div>
+          <div>
+            <input type="text" class="country-input" id="countryCode">
+            <input type="text" class="country-input" id="countryCode">
+            <input type="text" class="country-input" id="countryCode">
+          </div>
+        </span>
+      </div>
+      <!-- mobile section -->
+      <div class="sec-info">
+        <label for="mobile"><sup class="astric-red">*</sup>Mobile Phone</label> <input type="text" id="mobile">
+      </div>
+
+      <!-- postal Address section -->
+      <div class="sec-info postal-address">
+        <label for="postal"><sup class="astric-red">*</sup>Your Postal Address</label> <input type="text" id="postal">
+      </div>
+
+      <!-- Country section -->
+      <div class="sec-info">
+        <label><sup class="astric-red">*</sup>Country</label>
+        <select>
+          <option value="0">Select one</option>
+          <option>Egypt</option>
+          <option>USA</option>
+          <option>UK</option>
+        </select>
+      </div>
+
+
+      <!-- password -->
+      <div class="sec-info">
+        <label for="password"><sup class="astric-red">*</sup>Password</label> <input type="text" id="password">
+      </div>
+
+      <!-- Re-Enter password -->
+      <div class="sec-info">
+        <label for="rePassword">Re-Enter Password</label> <input type="text" id="rePassword">
+      </div>
+
+      <!--Accept the terms-->
+      <div class="sec-info checkbox">
+        <input type="checkbox" /> <span>I Accept the terms <strong><a href="#"> Terms Of Use</a></strong></span>
+      </div>
+
+
+      <!-- submit the form -->
+      <div class="submit">
+        <button type="submit">Continue >></button> <button type="reset">Reset</button>
+      </div>
+
+
+    </form><!-- End form tag -->
+
+  </div>
+</body>
+
+</html>
